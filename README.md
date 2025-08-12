@@ -4,15 +4,16 @@ DHCP Log Analysis in Splunk
 > Full report with screenshots and detailed analysis available here:  
 > **[report_doc.docx](report_doc.docx)**
 > 
-Below is a visualization of DHCP log monitoring using Splunk.  
-The dashboard shows:
-- Number of MAC addresses with zero lease time
-- Number of MAC addresses that changed IP more than once
-- Number of IPs assigned to multiple MACs
-- Total DHCP events count
-- Last seen devices
-- Top MAC addresses by DHCP request count
-- Off-hours DHCP activity
+This Splunk dashboard is designed for monitoring and analyzing DHCP server logs to detect anomalies, improve network stability, and strengthen security posture.
+It visualizes key metrics over the selected time range, helping to quickly identify:
+
+-Number of MAC addresses with zero lease time (lease_time = 0)
+-Number of MAC addresses that changed IP more than once
+-Number of IPs assigned to multiple MAC addresses
+-Total DHCP events count
+-Last seen devices in the network
+-Top MAC addresses by DHCP request count
+-DHCP activity outside normal working hours
 - ![DHCP Dashboard](dashboard.png)
 
 ---
